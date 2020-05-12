@@ -9,3 +9,10 @@ Scope of the Work:-
 
 
 Solution:-
+
+- Created the jsp page "inputForm.jsp" which will accept three input parameters from the UI from the user.
+- It will process the request by process.jsp and save the result into the mysql database.
+- The mysql won't allow duplicate data in name field.
+- Dockerfile has been created to create 2 containers and link both containers
+- The ansible playbook will serve the deployment of the entire process.
+
