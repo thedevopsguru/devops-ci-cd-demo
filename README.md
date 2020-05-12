@@ -6,3 +6,6 @@ Scope of the Work:-
 - It should accept three fields "Name", "Favorite Color", "Cats or Dogs"
 - Save the result in a relational database and ensure that "Name" is unique.
 - create an Ansible playbook to deploy it on a cloud(aws)
+
+
+Solution:-
