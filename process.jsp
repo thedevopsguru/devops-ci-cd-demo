@@ -20,6 +20,7 @@ Statement st=conn.createStatement();
 out.println(conn);
 int i=st.executeUpdate("insert into users(name,color,pets)values('"+name+"','"+color+"','"+pets+"')");
 out.println("Data is successfully inserted!");
+Thread.sleep(15); // sleep 15 seconds
     String redirectURL = "http://13.235.132.79:8080/inputForm.jsp";
     response.sendRedirect(redirectURL);
 
