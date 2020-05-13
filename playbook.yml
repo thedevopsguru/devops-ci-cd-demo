@@ -1,0 +1,18 @@
+---
+- name: first play
+  hosts: localhost
+  tasks:
+     - name: Build docker container for code packaging
+       shell: "docker build -t demo-image ."
+       
+     - name: Execute the mysql container
+       shell: "docker run --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -e MYSQL_USER=root -e MYSQL_PASSWORD=root -e MYSQL_DATABASE=test -d mysql/mysql-server:5.7"
+     
+     - name: Binding of the App and DB containers
+       shell: "docker run -p 8080:8080 -it -d --name demo-image --link mysql demo-image /bin/bash"
+     
+     - name: check the docker container status
+       shell: docker ps
+       
+     - name: run docker container app
+       shell: docker exec demo-image bash -c "/usr/local/tomcat/bin/startup.sh"
