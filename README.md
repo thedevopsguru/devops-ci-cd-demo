@@ -21,9 +21,11 @@ Scope of the Work:-
 IP address or hostname of the operational site:- http://13.235.132.79:8080/inputForm.jsp
 
 
-![Output](https://github.com/thedevopsguru/devops-ci-cd-demo/blob/master/Output.JPG)
+![Web App](https://github.com/thedevopsguru/devops-ci-cd-demo/blob/master/Output.JPG)
 
-![Output](https://github.com/thedevopsguru/devops-ci-cd-demo/blob/master/Output_MYSQL.JPG)
+
+
+![My-SQL Output](https://github.com/thedevopsguru/devops-ci-cd-demo/blob/master/Output_MYSQL.JPG)
 
 
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDx8gagNEDDEimsBgMP4f11UBn6f/eJBNpgOtgrD5nFvocypAI83OFbdkkq9/MZ6j7GIH8NnIlSMOSCYOyKL0+32SGcdzFGvoVIBG3QJY2ObxzXBg6R0jdLzU1piqcTzNO4y+7EnvwnIPAWSA0BRP8GdCrwHbWojBzML21UmVJNz5XAZzj+XiPPtyNk2q5QQNHY8XijPnbrc76h7Gitbdpw4TMXRiNNYiPQ0d7jDO6okLREO7TOvM/QUr//1+ZWsudK6gcemZ5fxZr57bdfF/Qs7enlYCDLoujsSjqm4OLV+FY+k30VbtVXcz1zZ+HDtQbhxx70LxOHAKnbXr7My9ft root@ip-172-31-39-174.ap-south-1.compute.internal
