@@ -3,8 +3,8 @@ pageEncoding="ISO-8859-1"%>
 <%@page import="java.sql.*,java.util.*"%>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<meta http-equiv="refresh" content="10; url=http://13.235.132.79:8080/inputForm.jsp">
+        <title>Insert title here</title>
 </head>
         <body>
 <%
@@ -20,6 +20,8 @@ Statement st=conn.createStatement();
 out.println(conn);
 int i=st.executeUpdate("insert into users(name,color,pets)values('"+name+"','"+color+"','"+pets+"')");
 out.println("Data is successfully inserted!");
+    String redirectURL = "http://13.235.132.79:8080/inputForm.jsp";
+    response.sendRedirect(redirectURL);
 
 }
 catch(SQLIntegrityConstraintViolationException sqe ){
