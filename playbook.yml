@@ -13,6 +13,8 @@
      
      - name: check the docker container status
        shell: docker ps
-       
+       register: out
+     - debug: var=out.stdout_lines
+     
      - name: run docker container app
        shell: docker exec demo-image bash -c "/usr/local/tomcat/bin/startup.sh"
