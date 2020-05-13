@@ -16,7 +16,7 @@ Scope of the Work:-
 - Dockerfile has been created to create 2 containers and link both containers
 - The ansible playbook will serve the deployment of the entire process.
 - 2 Containers would be created and then linked and ready to share the result.
-
+- execute the playbook by running the command - ansible-playbook playbook.yml
 
 
 IP address or hostname of the operational site:- http://13.235.132.79:8080/inputForm.jsp
